@@ -37,7 +37,6 @@
 
 - (IBAction)buttonPressed {
     count++;
-    
     scoreLabel.text = [NSString stringWithFormat:@"Score\n%li", count];
     
     [buttonBeep play];
